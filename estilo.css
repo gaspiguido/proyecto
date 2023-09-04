@@ -1,0 +1,171 @@
+body {
+    background: linear-gradient(to bottom, #0a0a0a, #3a0d2b);
+    margin: auto;
+  }
+#contenedor {float: left;}
+#logo {background-color: brown;
+width:160px;
+height: 110px;
+margin: auto;}
+
+#busqueda {background-color: aqua;
+width: 750px;
+height: 35px;
+margin: auto;}
+
+#destacadas {background-color: rgb(37, 2, 30);
+width: 3000x;
+height: 100px;
+margin: auto;
+background-position-x: center;
+background-position-y: top; }
+/*GENEROS*/
+#generos {
+    width: 100vw;
+    height: 300px;
+    float: left;
+
+}
+
+
+/*Rock and roll*/
+#g1
+{
+    font-size: larger;
+    font-style: normal ;
+    color: #ffffff;
+    float: left;
+    margin: 2.5cm;
+    border: 2px solid rgb(0, 0, 0);
+    padding:70px;
+    background-image:url(https://musign.es/wp-content/uploads/2018/08/45-1-kiss.jpg);
+    background-size: cover;
+    background-position:top;
+;
+}
+#g2
+/*pop*/
+{
+    font-size: larger;
+    font-style: normal;
+    color: #ffffff;
+    float: left;
+    margin: 2.5cm;
+    border: 2px solid rgb(0, 0, 0);
+    padding:70px;
+    background-image:url(https://biografieonline.it/img/bio/m/Michael_Jackson.jpg);
+    background-size: cover;
+    background-position:top;
+}
+/*rap*/
+#g3
+{   font-size: larger;
+    font-style: normal;
+    color: #ffffff;
+    float: left;
+    margin: 2.5cm;
+    border: 2px solid rgb(0, 0, 0);
+    padding:70px;
+    background-image:url(https://akns-images.eonline.com/eol_images/Entire_Site/2022428/rs_1200x1200-220528144320-1200-Snoop-Dogg-Tupac-Shakur.ct.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top);
+    background-size: cover;
+    background-position:top;
+   
+}
+/*r y b*/
+#g4
+{
+    font-size: larger;
+    font-style: normal;
+    color: #ffffff;
+    float: left;
+    margin: 2cm;
+    border: 2px solid rgb(0, 0, 0);
+    padding:70px;
+    background-image:url(https://images.pagina12.com.ar/styles/focal_content_1200x1050/public/2023-01/685690-48538-the-2520weeknd.jpg?itok=pYoMdm0z);
+    background-size: cover;
+    background-position:top;
+}
+
+
+
+
+
+#footer {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+position: absolute;
+left: 0px;
+bottom: 0px;
+}
+
+.border {
+    border: 1px solid rgb(0, 0, 0);
+
+}
+/*TITULO-NOMBRE*/ 
+#Beathub {
+ 
+        font-family: 'Bungee Shade', cursive;
+    color: rgb(250, 175, 64);
+font-size:1cm;
+ margin-top: 45px ; 
+ margin-right: 10px;
+ float: right;
+ line-height: 1px;
+}   
+
+
+ 
+
+input {
+	outline: none;
+	box-sizing: border-box;
+	height: 60px;
+	width: 0px;
+	padding: 0 20px;
+	color: #000;
+	border-radius: 50px;
+	font-size: 20px;
+	border: 1px solid #D50000;
+	transition: all .7s ease;
+}
+
+::placeholder {
+	color: grey;
+}
+
+.btn {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 80px;
+	height: 80px;
+	background: #D50000;
+	line-height: 80px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.btn i {
+	font-size: 25px;
+	color: white;
+	line-height: 80px;
+	transition: all .7s ease;
+}
+
+.container:hover input {
+	width: 350px;
+}
+
+.container:hover i{
+	transform: rotate(-360deg);
+}
+
+.btn:hover{
+	background: #cc0000;
+}
+
+
+
+/* NOTOCAR*\
