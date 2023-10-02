@@ -1,6 +1,7 @@
 body {
     background: linear-gradient(to bottom, #0a0a0a, #3a0d2b);
     margin: auto;
+    
   }
 #contenedor {float: left;}
 #logo {background-color: brown;
@@ -13,7 +14,7 @@ width: 750px;
 height: 35px;
 margin: auto;}
 
-#destacadas {background-color: rgb(37, 2, 30);
+#destacadas {background-color: rgb(0, 0, 0);
 width: 3000x;
 height: 100px;
 margin: auto;
@@ -31,14 +32,15 @@ background-position-y: top; }
 /*Rock and roll*/
 #g1
 {
-    font-size: larger;
-    font-style: normal ;
+    font-size: x-large;
+    font-style: normal;
+    font-family: 'Bungee Shade';
     color: #ffffff;
     float: left;
-    margin: 2.5cm;
+    margin: 2.0cm;
     border: 2px solid rgb(0, 0, 0);
     padding:70px;
-    background-image:url(https://musign.es/wp-content/uploads/2018/08/45-1-kiss.jpg);
+    background-image:url(https://vegnews.com/media/W1siZiIsIjQwNTQ5L1ZlZ05ld3MuTWV0YWxsaWNhMy5UaW1TYWNjZW50aS5qcGciXSxbInAiLCJjcm9wX3Jlc2l6ZWQiLCIxNzU4eDEwMzkrMCsyNiIsIjE2MDB4OTQ2XiIseyJmb3JtYXQiOiJqcGcifV0sWyJwIiwib3B0aW1pemUiXV0/VegNews.Metallica3.TimSaccenti.jpg?sha=b2e4ce718dd0fff4);
     background-size: cover;
     background-position:top;
 ;
@@ -46,11 +48,12 @@ background-position-y: top; }
 #g2
 /*pop*/
 {
-    font-size: larger;
+    font-size: x-large;
     font-style: normal;
+    font-family: 'Bungee Shade';
     color: #ffffff;
     float: left;
-    margin: 2.5cm;
+    margin: 2.0cm;
     border: 2px solid rgb(0, 0, 0);
     padding:70px;
     background-image:url(https://biografieonline.it/img/bio/m/Michael_Jackson.jpg);
@@ -59,26 +62,34 @@ background-position-y: top; }
 }
 /*rap*/
 #g3
-{   font-size: larger;
+{   font-size: x-large;
     font-style: normal;
+    font-family: 'Bungee Shade';
     color: #ffffff;
+    opacity: 1;
     float: left;
-    margin: 2.5cm;
+    margin: 2.0cm;
     border: 2px solid rgb(0, 0, 0);
     padding:70px;
     background-image:url(https://akns-images.eonline.com/eol_images/Entire_Site/2022428/rs_1200x1200-220528144320-1200-Snoop-Dogg-Tupac-Shakur.ct.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top);
     background-size: cover;
     background-position:top;
+    color
    
+}
+
+#rap {
+    
 }
 /*r y b*/
 #g4
 {
-    font-size: larger;
+    font-size: x-large;
     font-style: normal;
+    font-family: 'Bungee Shade';
     color: #ffffff;
     float: left;
-    margin: 2cm;
+    margin: 2.0cm;
     border: 2px solid rgb(0, 0, 0);
     padding:70px;
     background-image:url(https://images.pagina12.com.ar/styles/focal_content_1200x1050/public/2023-01/685690-48538-the-2520weeknd.jpg?itok=pYoMdm0z);
@@ -111,7 +122,19 @@ font-size:1cm;
  margin-right: 10px;
  float: right;
  line-height: 1px;
+ color: red;
+ animation-name: example;
+ animation-duration: 6s;
+ animation-iteration-count: infinite;
 }   
+@keyframes example {
+    0%   {color: purple;}
+    25%  {color: orange;}
+    50%  {color: purple;}
+    75%  {color: orange;}
+    100% {color: purple;}
+    animation-iteration-count: infinite; 
+}
 
 
  
@@ -165,7 +188,35 @@ input {
 .btn:hover{
 	background: #cc0000;
 }
+a:hover{
+    color: white;
 
+}
+#myCarousel img {
+    height: 300px;
+}
 
-
-/* NOTOCAR*\
+#imagenCarousel {
+    width: 100%;
+}
+#noticias {
+    font-family: 'Bungee Shade', cursive;
+    color: rgb(250, 175, 64);
+}
+#travisnoticia
+{
+    width: 1425px;
+    height: 500px;
+    margin-top: auto;
+    margin: auto;
+}
+h1 {
+    font-size: 50px;
+    color: rgb(136, 38, 136);
+    font-family: 'Bungee Shade', cursive;
+}
+h2 {
+    font-family: 
+        font-size: 200%;
+        color:rgb(250, 175, 64);
+}
