@@ -194,6 +194,7 @@ a:hover{
 }
 #myCarousel img {
     height: 300px;
+    width: 1500px;
 }
 
 #imagenCarousel {
@@ -220,3 +221,6 @@ h2 {
         font-size: 200%;
         color:rgb(250, 175, 64);
 }
+
+
+
