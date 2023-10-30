@@ -32,6 +32,7 @@ background-position-y: top; }
 /*Rock and roll*/
 #g1
 {
+    width: 200px;
     font-size: x-large;
     font-style: normal;
     font-family: 'Bungee Shade';
@@ -39,7 +40,7 @@ background-position-y: top; }
     float: left;
     margin: 2.0cm;
     border: 2px solid rgb(0, 0, 0);
-    padding:70px;
+    padding: 70px;
     background-image:url(https://vegnews.com/media/W1siZiIsIjQwNTQ5L1ZlZ05ld3MuTWV0YWxsaWNhMy5UaW1TYWNjZW50aS5qcGciXSxbInAiLCJjcm9wX3Jlc2l6ZWQiLCIxNzU4eDEwMzkrMCsyNiIsIjE2MDB4OTQ2XiIseyJmb3JtYXQiOiJqcGcifV0sWyJwIiwib3B0aW1pemUiXV0/VegNews.Metallica3.TimSaccenti.jpg?sha=b2e4ce718dd0fff4);
     background-size: cover;
     background-position:top;
@@ -74,13 +75,10 @@ background-position-y: top; }
     background-image:url(https://akns-images.eonline.com/eol_images/Entire_Site/2022428/rs_1200x1200-220528144320-1200-Snoop-Dogg-Tupac-Shakur.ct.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top);
     background-size: cover;
     background-position:top;
-    color
+    
    
 }
 
-#rap {
-    
-}
 /*r y b*/
 #g4
 {
@@ -194,7 +192,6 @@ a:hover{
 }
 #myCarousel img {
     height: 300px;
-    width: 1500px;
 }
 
 #imagenCarousel {
@@ -206,21 +203,145 @@ a:hover{
 }
 #travisnoticia
 {
-    width: 1425px;
+    width: 1500px;
     height: 500px;
-    margin-top: auto;
-    margin: auto;
+    
+    
 }
 h1 {
     font-size: 50px;
     color: rgb(136, 38, 136);
     font-family: 'Bungee Shade', cursive;
 }
-h2 {
-    font-family: 
-        font-size: 200%;
-        color:rgb(250, 175, 64);
+
+
+#artitravi {
+    font-family: 'Righteous', cursive;
+    font-size: 170%;
+    color:rgb(250, 175, 64);
+    line-height: 1cm;
+
+}
+#Inicio {
+    margin-top: 12px ; 
+ margin-right: 10px;
+ float: left;
+ line-height: 1px;
+}
+#leer
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    
 }
 
 
+.extra {
+  display: none;
+}
+  p {
+    font-family: 'Righteous', cursive;
+    font-size: 170%;
+    color:rgb(250, 175, 64);
+    line-height: 1cm;
+    
+  }
+  input[type="checkbox"] {
+    height: 2em;
+    display: block;
+    appearance: none;
+  }
+  label {
+    font-family: 'Righteous', cursive;
+    font-size: 170%;
+    color:rgb(250, 175, 64);
+    line-height: 1cm;
 
+    position: relative;
+    padding: 1em;
+    background-color: #750370;
+    
+    cursor: pointer;
+    border-radius: 0.5em;
+
+  }
+  .dots {
+    font-family: 'Righteous', cursive;
+    font-size: 170%;
+    color:rgb(250, 175, 64);
+    line-height: 1cm;
+  }
+  label:before {
+    content: "Leer más";
+  }
+  input[type="checkbox"]:checked ~ label:before {
+    content: "leer menos";
+  }
+  .dots:has(~ input[type="checkbox"]:checked) {
+    display: none;
+  }
+  .extra:has(~ input[type="checkbox"]:checked) {
+    display: inline;
+  }
+
+  .invisible {
+    display: none;
+  }
+  #MAS {
+    font-family: 'Bungee Shade', cursive;
+    color: rgb(250, 175, 64);
+  }
+
+
+  @media (max-width:980px){
+    #g1{
+      width: 335px;
+      height: 335px;
+      padding-top: 150px;
+      padding-left: 130px;
+      font-size:x-large;
+    }
+
+    #g2{
+      width: 335px;
+      height: 335px;
+      padding-top: 150px;
+      padding-left: 147px;
+
+    }
+
+    #g3{
+      width: 335px;
+      height: 335px;
+      padding-top: 150px;
+      padding-left: 130px;
+    }
+
+    #g4{
+      width: 335px;
+      height: 335px;
+      padding-top: 150px;
+      padding-left: 130px;
+    }
+
+    #destacadas {
+      width: 980px;
+      height: 170px;
+    }
+
+    #Beathub{
+      margin-top: 78px ; 
+      margin-right: 20px;
+      font-size: 60px;
+    }
+
+    #myCarousel img {
+      height: 400px;
+    }
+
+    #noticias {
+      font-family: 'Bungee Shade', cursive;
+      color: rgb(250, 175, 64);
+      font-size: 58px;
+    }
+  }
