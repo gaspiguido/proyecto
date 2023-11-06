@@ -293,7 +293,7 @@ h1 {
   }
 
 
-  @media (max-width:980px){
+  @media (pointer:course){
     #g1{
       width: 335px;
       height: 335px;
@@ -347,7 +347,9 @@ h1 {
       font-size: 58px;
     }
 
-    #inicio {
-      padding: 2223px;
+    #inicio img{
+      height: 100px;
+      margin-top: 16px;
+      margin-left: 20px;
     }
   }
