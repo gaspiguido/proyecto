@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./inicio/imagenes/logo.png">
+</head>
+<body>
+  <link href="styles.css"
+    <div class="contenedorFlex">
+        <div class="contenedor">
+
+            <h1 class="title1">Beathub</h1>
+           
+            <p>Que bueno verte de vuelta!</p>
+    <div class="formularioFlex">
+
+        <div class="formulario">
+            <div class="post">
+                <div class="formularioCompleto">
+                    <div class="username">
+                        <input id="usernameLogin" type="text" autocomplete="off" required>
+                        <label>Usuario</label>
+                    </div>
+                    
+                    <div class="username">
+                        <input id="passwordLogin" type="password" autocomplete="off" required>
+                        <label>Contraseña</label>
+                    </div>
+                    
+                    <div class="InicioSesion">
+                        <button onclick="validacion()">Ingresar</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+<script>
+    const accederButton = document.getElementsByClassName("accederButton");
+
+    const formulario = document.querySelector(".post")
+
+    function validacion() {
+        let username = document.getElementById("usernameLogin").value, password = document.getElementById("passwordLogin").value;
+        
+        if (username == "Beathub" && password == "123") {
+            location.href = "./principal/principal.html";
+        } else {
+            alert("Usuario Invalido");
+        }
+    }
+</script>
+
+</html>
